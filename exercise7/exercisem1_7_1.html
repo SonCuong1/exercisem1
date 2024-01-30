@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let inputPhysics = prompt("Nhập điểm vật lý:");
+    let inputChemistry = prompt("Nhập điểm hoá:");
+    let inputMath = prompt("Nhập điểm toán:");
+    let inputBiology = prompt("Nhập điểm sinh học:");
+    let physics = parseInt(inputPhysics);
+    let chemistry = parseInt(inputChemistry);
+    let math = parseInt(inputMath);
+    let biology = parseInt(inputBiology);
+    let avr = (physics + chemistry + math + biology) / 4;
+    document.write("Điểm trung bình: " + avr);
+    document.write("<br>");
+    let inputC = prompt("Nhập độ C:");
+    let c = parseInt(inputC);
+    let f = (c / 5) * 9 + 32;
+    document.write("Nhiệt độ F: " + f);
+    document.write("<br>");
+    let inputRadius = prompt("Nhập bán kính hình tròn:")
+    let radius = parseInt(inputRadius);
+    let area = Math.PI * radius ^ 2;
+    document.write("Diện tích hình tròn: " + area.toFixed(2));
+    document.write("<br>");
+    let cir = 2 * Math.PI * radius;
+    document.write("Chu vi hình tròn: " + cir.toFixed(2));
+</script>
+</body>
+</html>

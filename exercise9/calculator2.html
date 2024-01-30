@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<style>
+    #input {
+        width: 130px;
+    }
+
+    input {
+        width: 30px;
+    }
+</style>
+<body>
+<table>
+    <tr>
+        <td colspan="4"><label><input type="text" id="input"></label></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>
+            <input type="button" value="1" onclick="input.value+='1'">
+        </td>
+        <td>
+            <input type="button" value="2" onclick="input.value+='2'">
+        </td>
+        <td>
+            <input type="button" value="3" onclick="input.value+='3'">
+        </td>
+        <td>
+            <input type="button" value="+" onclick="input.value+='+'">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="button" value="4" onclick="input.value+='4'">
+        </td>
+        <td>
+            <input type="button" value="5" onclick="input.value+='5'">
+        </td>
+        <td>
+            <input type="button" value="6" onclick="input.value+='6'">
+        </td>
+        <td>
+            <input type="button" value="-" onclick="input.value+='-'">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="button" value="7" onclick="input.value+='7'">
+        </td>
+        <td>
+            <input type="button" value="8" onclick="input.value+='8'">
+        </td>
+        <td>
+            <input type="button" value="9" onclick="input.value+='9'">
+        </td>
+        <td>
+            <input type="button" value="*" onclick="input.value+='*'">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="button" value="C" onclick="input.value =' '">
+        </td>
+        <td>
+            <input type="button" value="0" onclick="input.value+='0'">
+        </td>
+        <td>
+            <input type="button" value="=" onclick="input.value = eval(input.value)">
+        </td>
+        <td>
+            <input type="button" value="/" onclick="input.value+='/'">
+        </td>
+    </tr>
+</table>
+</body>
+<script>
+</script>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Caculator</title>
+</head>
+<body>
+<h1>Caculator</h1>
+<label for="num1"><input type="number" id="num1" placeholder="Enter the first number"></label>
+<label for="num2"><input type="number" id="num2" placeholder="Enter the second number"></label>
+<br>
+<br>
+<button onclick="add()">Addition(+)</button>
+<button onclick="sub()">Subtraction(-)</button>
+<button onclick="mul()">Multiplication(X)</button>
+<button onclick="div()">Division(/)</button>
+<p id="res"></p>
+<script>
+    function add() {
+        let num1 = parseInt(document.getElementById("num1").value)
+        let num2 = parseInt(document.getElementById("num2").value)
+        document.getElementById("res").innerText = "Result: " + (num1 + num2)
+    }
+
+    function sub() {
+        let num1 = parseInt(document.getElementById("num1").value)
+        let num2 = parseInt(document.getElementById("num2").value)
+        document.getElementById("res").innerText = "Result: " + (num1 - num2)
+    }
+
+    function mul() {
+        let num1 = parseInt(document.getElementById("num1").value)
+        let num2 = parseInt(document.getElementById("num2").value)
+        document.getElementById("res").innerText = "Result: " + (num1 * num2)
+    }
+
+    function div() {
+        let num1 = parseInt(document.getElementById("num1").value)
+        let num2 = parseInt(document.getElementById("num2").value)
+        document.getElementById("res").innerText = "Result: " + (num1 / num2)
+    }
+</script>
+</body>
+</html>

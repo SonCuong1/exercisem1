@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ĐĂNG KÍ HỌC VIÊN</title>
+</head>
+<style>
+    body {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+    }
+
+    table {
+        border: 10px solid;
+        border-color: khaki;
+        background-color: khaki;
+        border-collapse: collapse;
+        color: blue;
+    }
+
+    td {
+        vertical-align: top;
+    }
+
+    .r {
+        background-color: aquamarine;
+    }
+
+    .g {
+        color: black;
+    }
+</style>
+<body>
+<table cellpadding="10">
+    <tr>
+        <td colspan="2" class="r">ĐĂNG KÍ HỌC VIÊN</td>
+    </tr>
+    <tr>
+        <td><label for="name">Họ và tên</label></td>
+        <td colspan="2"><input type="text" id="name" name="name"></td>
+    </tr>
+    <tr>
+        <td><label for="birth">Ngày sinh</label></td>
+        <td colspan="2"><input type="date" id="birth" name="birth"></td>
+    </tr>
+    <tr>
+        <td>Giới tính</td>
+        <td class="g"><input type="radio" name="male">Nam
+            <input type="radio" name="female">Nữ
+        </td>
+    </tr>
+    <tr>
+        <td><label for="adress">Địa chỉ</label></td>
+        <td colspan="2"><textarea id="adress" rows="4" cols="50" name="adress"></textarea></td>
+    </tr>
+    <tr>
+        <td><label for="class">Lớp</label></td>
+        <td colspan="2">
+            <select id="class" name="class">
+                <option value="">-Chọn lớp-</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="-3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="-6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+        </td>
+    <tr>
+        <td><label for="email">Email</label></td>
+        <td colspan="2"><input type="text" id="email" name="email"></td>
+    </tr>
+    <tr>
+        <td><label for="phone">Điện thoại</label></td>
+        <td colspan="2"><input type="number" id="phone" name="phone"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="submit" value="Đăng kí">
+            <input type="reset" value="Nhập lại"></td>
+    </tr>
+</table>
+</body>
+</html>

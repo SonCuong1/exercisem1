@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    .part1, .part2, .part3 {
+        width: 200px;
+        height: 200px
+    }
+
+    img {
+        width: 200px;
+        height: 200px
+    }
+</style>
+<body>
+<div class="container">
+    <div class="part1" onclick="handleChange(1)">
+        <img id="imgp1" src="paimon.png" alt="">
+    </div>
+    <div class="part2" onclick="handleChange(2)">
+        <img id="imgp2" src="pompom.webp" alt="">
+    </div>
+    <div class="part3" onclick="handleChange(3)">
+        <img id="imgp3" src="bangboo.png" alt="">
+    </div>
+</div>
+</body>
+<script>
+    let images = [
+        "../paimon.png",
+        "../pompom.webp",
+        "../bangboo.png"
+    ]
+
+
+    function handleChange(ltn) {
+
+        let imgEle = document.getElementById(`imgp${ltn}`);
+        let prevSrc = imgEle.src;
+
+        let availableImages = images.filter(function (img) {
+            return img !== prevSrc;
+        });
+
+
+        imgEle.src = document.getElementById(`imgp${ltn}`).src = availableImages[Math.floor(Math.random() * availableImages.length)];
+
+        let srcP1 = document.querySelectorAll('img')[0].src;
+
+        let divElements = document.querySelectorAll('.container div img');
+        let flag = true;
+
+        divElements.forEach(function (img) {
+            if (srcP1 !== img.src) {
+                flag = false;
+            }
+        });
+
+
+        if (flag) {
+            let divElements = document.querySelectorAll('.container div');
+            divElements.forEach(function (div) {
+                div.style.boxShadow = "2px 1px 5px 2px red";
+            });
+        } else {
+            let divElements = document.querySelectorAll('.container div');
+            divElements.forEach(function (div) {
+                div.style.boxShadow = "2px 1px 5px 2px black";
+            });
+        }
+
+    }
+</script>
+</html>

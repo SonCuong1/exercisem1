@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Convert currency</title>
+</head>
+<style>
+    table {
+        width: 500px;
+        text-align: center;
+    }
+</style>
+<body>
+<table>
+    <tr>
+        <th>Amount</th>
+        <th>From Currency</th>
+        <th>To Currency</th>
+    </tr>
+    <tr>
+        <td><label for="amount"><input type="number" id="amount"></label></td>
+        <td><label for="currency1"><select id="currency1">
+            <option value="1">VND</option>
+            <option value="23000">USD</option>
+        </select></label></td>
+        <td><label for="currency2"><select id="currency2">
+            <option value="1">VND</option>
+            <option value="23000">USD</option>
+        </select></label></td>
+        <td>
+            <button onclick="convert()">Convert</button>
+        </td>
+    </tr>
+</table>
+<p id="output"></p>
+<br>
+<script>
+    function convert() {
+        let amount = parseInt(document.getElementById("amount").value)
+        let currency1 = parseInt(document.getElementById("currency1").value)
+        let currency2 = parseInt(document.getElementById("currency2").value)
+        curchange = amount * (currency1 / currency2)
+        document.getElementById("output").innerText = "Result: " + curchange        // if (currency1 === currency2 && currency1 === "vnd") {
+        // Cách 2:  document.getElementById("output").innerText = "Result: " + amount + "Đ"
+        // }
+        //
+        // if (currency1 === currency2 && currency1 === "usd") {
+        //     document.getElementById("output").innerText = "Result: " + amount + "$"
+        // }
+        // if (currency1 === "vnd" && currency2 === "usd") {
+        //     let curchange = amount / 23000
+        //     document.getElementById("output").innerText = "Result: " + curchange + "$"
+        // }
+        // if (currency1 === "usd" && currency2 === "vnd") {
+        //     let curchange = amount * 23000
+        //     document.getElementById("output").innerText = "Result: " + curchange + "$"
+        // }
+    }
+</script>
+</body>
+</html>
