@@ -35,18 +35,19 @@
 // }
 
 // Bài 4:
-for (let line = 0; line <5; line++) {
-    for (let width = 0; width < 10; width++) {
-        if (line === 0 || line === 4) {
-            document.write("*")
-        } else if (width === 0 || width === 9) {
-            document.write("*")
-        } else {
-            document.write("&ensp;")
-        }
-    }
-    document.write("<br>")
-}
+// for (let line = 0; line <5; line++) {
+//     for (let width = 0; width < 10; width++) {
+//         if (line === 0 || line === 4) {
+//             document.write("*")
+//         } else if (width === 0 || width === 9) {
+//             document.write("*")
+//         } else {
+//             document.write("&ensp;")
+//         }
+//     }
+//     document.write("<br>")
+// }
+
 // Bài 5:
 // function result() {
 //     let money = parseInt(document.getElementById("money").value);
@@ -57,3 +58,5 @@ for (let line = 0; line <5; line++) {
 //     }
 //     console.log(money)
 // }
+
+// Bài 6:

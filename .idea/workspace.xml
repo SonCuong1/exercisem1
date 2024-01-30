@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd6e12ee-9855-4370-8257-1d19c0fbf2fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/exercise11/songuyento.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise11/vonglap1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise11/forwhile2/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercise11/forwhile2/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise11/prime/prime.html" beforeDir="false" afterPath="$PROJECT_DIR$/exercise11/prime/prime.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise11/prime/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercise11/prime/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +44,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.prime.html.executor&quot;: &quot;Debug&quot;,
+    &quot;Node.js.script.js.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -61,6 +65,23 @@
       <recent name="F:\Studies\CodeGym\Module 1\exercisem1\exercise9" />
     </key>
   </component>
+  <component name="RunManager" selected="JavaScript Debug.prime.html">
+    <configuration name="prime.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" engineId="37cae5b9-e8b2-4949-9172-aafa37fbc09c" uri="http://localhost:63342/exercisem1/exercise11/prime/prime.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="script.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/exercise11/prime">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.prime.html" />
+      <item itemvalue="Node.js.script.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.prime.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -74,6 +95,8 @@
       <workItem from="1706261016662" duration="2458000" />
       <workItem from="1706489830156" duration="16238000" />
       <workItem from="1706576560767" duration="21735000" />
+      <workItem from="1706615651570" duration="3630000" />
+      <workItem from="1706619313729" duration="1293000" />
     </task>
     <servers />
   </component>

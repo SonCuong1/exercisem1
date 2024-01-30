@@ -1,13 +1,14 @@
-let count = 0;
 let number = 2;
-for (count; count < 20;) {
-    for (let i = 2; i < number;) {
+for (let count = 0; count < 20; number++) {
+    let prime = true;
+    for (let i = 2; i < number; i++) {
         if (number % i === 0) {
-            i++;
-        } else {
-            count++;
-            number++
+            prime = false;
+            break;
         }
     }
+    if (prime) {
+        console.log(number);
+        count++;
+    }
 }
-
