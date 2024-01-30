@@ -35,11 +35,17 @@
 // }
 
 // Bài 4:
-let line = 1;
-let word = "*";
-let witdh = 1;
-for (line;line <= 7; line++) {
-    while ()
+for (let line = 0; line <5; line++) {
+    for (let width = 0; width < 10; width++) {
+        if (line === 0 || line === 4) {
+            document.write("*")
+        } else if (width === 0 || width === 9) {
+            document.write("*")
+        } else {
+            document.write("&ensp;")
+        }
+    }
+    document.write("<br>")
 }
 // Bài 5:
 // function result() {

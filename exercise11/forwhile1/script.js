@@ -47,17 +47,15 @@
 // console.log(total)
 
 // Bài 6:
-// let i = 1, number = 1, total = number;
-// while (i <= 30) {
-//     if (number % 7 === 0) {
-//         total += number
-//         number++
-//         i++
-//     } else {
-//         number++
-//         i++
-//     }
-// }
+let count = 0, number = 0, total = 0;
+while (count < 30) {
+    if (number % 7 === 0) {
+        total += number
+        count++
+    }
+    number++
+}
+console.log(total)
 // console.log(total)
 
 // Bài 7:

@@ -1,15 +1,13 @@
-let numbers = prompt("Nhập số lượng sô nguyên tố cần in ra");
 let count = 0;
-let N = 2;
-console.log(N)
-while (count <= numbers) {
-    for (let i = 2; i < N; i++) {
-        if (N % i === 0) {
-            break
+let number = 2;
+for (count; count < 20;) {
+    for (let i = 2; i < number;) {
+        if (number % i === 0) {
+            i++;
         } else {
-            console.log(N)
-            count ++
+            count++;
+            number++
         }
     }
-    N++
 }
+
