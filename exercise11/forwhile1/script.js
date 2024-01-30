@@ -1,73 +1,80 @@
 // Bài 1:
-// let i = 0;
-// for (i; i < 100; i++) {
-//     if (i === 99) {
+// let number = 0;
+// for (number; number < 100; number++) {
+//     if (number === 99) {
 //         alert("Đã hoàn thành")
 //     }
 // }
+
 // Bài 2:
-// let nhietDo = prompt("Hãy nhập nhiệt độ:");
-// while (nhietDo > 100) {
+// let temp = prompt("Hãy nhập nhiệt độ:");
+// while (temp > 100) {
 //     console.log("Hãy giảm nhiệt độ")
 // }
-// while (nhietDo < 20) {
+// while (temp < 20) {
 //     console.log("Hãy tăng nhiệt độ")
 // }
+
 // Bài 3:
-// let n1 = 0, n2 = 1, total;
+// let numberA = 0, numberB = 1, total;
 // let i = 1;
-// console.log(n1);
-// console.log(n2);
+// console.log(numberA);
+// console.log(numberB);
 // for (i; i <= 20; i++) {
-//     total = n1 + n2
+//     total = numberA + numberB
 //     console.log(total)
-//     n1 = n2;
-//     n2 = total;
+//     numberA = numberB;
+//     numberB = total;
 // }
+
 // Bài 4:
-// let n1 = 0, n2 = 1, total = n1 + n2;
+// let numberA = 0, numberB = 1, total = numberA + numberB;
 // while (total % 5 !== 0) {
-//     n1 = n2;
-//     n2 = total;
-//     total = n1 + n2;
+//     numberA = numberB;
+//     numberB = total;
+//     total = numberA + numberB;
 // }
 // console.log(total)
+
 // Bài 5:
-// let n1 = 0, n2 = 1, total = n1 + n2;
+// let numberA = 0, numberB = 1, total = numberA + numberB;
 // let i = 1;
 // for (i; i <= 20; i++) {
-//     total = total + n1 + n2
-//     n1 = n2;
-//     n2 = total;
+//     total = total + numberA + numberB
+//     numberA = numberB;
+//     numberB = total;
 // }
 // console.log(total)
+
 // Bài 6:
-// let i = 1, n = 1, total = n;
+// let i = 1, number = 1, total = number;
 // while (i <= 30) {
-//     if (n % 7 === 0) {
-//         total += n
-//         n++
+//     if (number % 7 === 0) {
+//         total += number
+//         number++
 //         i++
 //     } else {
-//         n++
+//         number++
 //         i++
 //     }
 // }
 // console.log(total)
+
 // Bài 7:
-// let n = 1;
-// for (n; n <= 100; n++) {
-//     if (n % 3 === 0 && n % 5 === 0) {
+// let number = 1;
+// for (number; number <= 100; number++) {
+//     if (number % 3 === 0 && number % 5 === 0) {
 //         console.log("FizzBuzz")
-//     } else if (n % 3 === 0) {
+//     } else if (number % 3 === 0) {
 //         console.log("Fizz")
-//     } else if (n % 5 === 0) {
+//     } else if (number % 5 === 0) {
 //         console.log("Buzz")
 //     } else {
-//         console.log(n)
+//         console.log(number)
 //     }
 //
 // }
+
 // Bài 8:
 // function play() {
 //     let valueButton = document.getElementById("play")

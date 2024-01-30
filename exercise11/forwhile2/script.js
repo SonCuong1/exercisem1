@@ -1,21 +1,24 @@
 // Bài 1:
-// let n1 = 0, n2 = 1, total;
+// let numberA = 0, numberB = 1, total;
 // let i = 1;
-// console.log(n1);
-// console.log(n2);
+// console.log(numberA);
+// console.log(numberB);
 // for (i; i <= 20; i++) {
-//     total = n1 + n2
+//     total = numberA + numberB
 //     console.log(total)
-//     n1 = n2;
-//     n2 = total;
+//     numberA = numberB;
+//     numberB = total;
 // }
+
 // Bài 2:
-// let number = prompt("Hãy nhập 1 số:");
-// let x = 1
-// for (let i = 1; i <= number; i++) {
-//     x *= i
+// let numberA = prompt("Hãy nhập 1 số:");
+// let numberB = 1;
+// let i;
+// for (i; i <= numberA; i++) {
+//     numberB *= i
 // }
-// console.log(x)
+// console.log(numberB)
+
 // Bài 3:
 // let tr = 1;
 // let word = "*"
@@ -23,14 +26,23 @@
 //     document.write(word + "<br>")
 //     word += "*"
 // }
+
+// let line = 1
+// let word = "*****"
+// for (line; line <= 5; line++) {
+//     document.write(word + "<br>")
+//     word -= "*"
+// }
+
 // Bài 4:
+
 // Bài 5:
 // function result() {
 //     let money = parseInt(document.getElementById("money").value);
 //     let month = parseInt(document.getElementById("month").value);
-//     let r = parseInt(document.getElementById("r").value);
+//     let interRate = parseInt(document.getElementById("interRate").value);
 //     for (let i = 1; i <= month; i++) {
-//         money = money * ((1 + r) ** 2)
+//         money = money * ((1 + interRate) ** 2)
 //     }
 //     console.log(money)
 // }
