@@ -35,7 +35,12 @@
 // }
 
 // Bài 4:
-
+let line = 1;
+let word = "*";
+let witdh = 1;
+for (line;line <= 7; line++) {
+    while ()
+}
 // Bài 5:
 // function result() {
 //     let money = parseInt(document.getElementById("money").value);
