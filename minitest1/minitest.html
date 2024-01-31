@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini test</title>
+</head>
+<body>
+<script>
+    // bài 1: câu lệnh là:
+    alert("Huỳnh Nguyễn Sơn Cương")
+    // bài 2: câu lệnh là:
+    let a = prompt("Nhập số")
+    alert(a ** 2)
+    // bài 3: các bước code:
+    // b1: viết thẻ <h1>, đặt cho thẻ <h1> 1 id
+    // b2: viết thẻ <input> cho a, b; đặt id cho 2 thẻ vừa viết
+    // b3: viết thẻ <button>, đặt onlick vào thẻ button
+    // b3: viết thẻ <script>, trong đó viết funtion của onlick của thẻ button
+    // b4:  gán giá trị cho a và b dựa theo id của 2 thẻ input trên, dùng hàm let, parseInt, document.getElementbyId().value
+    // b5: gán giá trị cho S = a * b
+    // b6: dùng hàm document.getElementbyId().InnerHTML để in kết quả S vào id thẻ h1
+    // bài 4:
+    function cvdt() {
+        let a = prompt("Nhập cạnh a")
+        alert("Chu vi hình vuông: "+ a*4+" diện tíc hình vuông:")
+    }
+
+    function lt() {
+        let a2 = parseInt(document.getElementById("a2").value)
+        let b2 = parseInt(document.getElementById("b2").value)
+        let aa = a2 ** 2
+        let ab = a ** b2
+        document.getElementById("lt").innerHTML = "a^2= " + aa + " a^b= " + ab
+    }
+
+    function t() {
+        let a3 = parseInt(document.getElementById("a3").value)
+        let b3 = parseInt(document.getElementById("b3").value)
+        while (a3 <= b3) {
+            let b = a3 + ++a3
+            document.getElementById("t").innerHTML = "Tổng từ a tới b: " + b
+        }
+    }
+
+    function tk() {
+        let a4 = parseInt(document.getElementById("a4").value)
+        if (a4 < 100) {
+            document.getElementById("tk").innerHTML = "Thế kỉ: " + 1
+        } else if (a4 % 100 === 0) {
+            let b4 = a4 / 100 - 1
+            document.getElementById("tk").innerHTML = "Thế kỉ: " + b4
+        } else {
+            let b4 = a4 / 100 - a4 % 100
+            document.getElementById("tk").innerHTML = "Thế kỉ: " + b4
+        }
+    }
+
+    function tri() {
+        let a5 = parseInt(document.getElementById("a5").value)
+        let b5 = parseInt(document.getElementById("b5").value)
+        let c5 = parseInt(document.getElementById("c5").value)
+        if (a5 > 0 && b5 > 0 && c5 > 0 && a5 + b5 > c5 && b5 + c5 > a5 && a5 + c5 > b5) {
+            if (a5 === b5 && a5 === c5) {
+                document.getElementById("tri").innerHTML = "Đây là 1 tam giác đều"
+            } else if (a5 === b5 || a5 === c5 || b5 === c5) {
+                document.getElementById("tri").innerHTML = "Đây là 1 tam giác cân"
+            } else if (a5 ** 2 + b5 ** 2 === c5 ** 2) {
+                document.getElementById("tri").innerHTML = "Đây là 1 tam giác vuông"
+            } else {
+                document.getElementById("tri").innerHTML = "Đây là 1 tam giác"
+            }
+        } else {
+            document.getElementById("tri").innerHTML = "Đây không phải là 1 tam giác"
+        }
+    }
+</script>
+</body>
+</html>
