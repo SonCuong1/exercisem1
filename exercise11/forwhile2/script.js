@@ -60,3 +60,13 @@
 // }
 
 // Bài 6:
+let word = "*"
+for (let line = 0; line < 10; line++) {
+    if (line === 1) {
+        for (let width = 10; width < 10; width++) {
+            if (3 <= word <= 4 || 6 <= word <= 7) {
+                document.write(word += "*")
+            }
+        }
+    }
+}

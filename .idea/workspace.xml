@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd6e12ee-9855-4370-8257-1d19c0fbf2fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/exercise11/prime/primetest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise11/prime/scripttest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise11/forwhile2/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercise11/forwhile2/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +97,7 @@
       <workItem from="1706615651570" duration="3630000" />
       <workItem from="1706619313729" duration="1293000" />
       <workItem from="1706663057564" duration="106000" />
-      <workItem from="1706663174819" duration="427000" />
+      <workItem from="1706663174819" duration="1297000" />
     </task>
     <servers />
   </component>
