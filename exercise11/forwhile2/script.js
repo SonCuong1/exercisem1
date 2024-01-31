@@ -20,20 +20,48 @@
 // console.log(numberB)
 
 // Bài 3:
-// let tr = 1;
-// let word = "*"
-// for (tr; tr <= 5; tr++) {
-//     document.write(word + "<br>")
-//     word += "*"
+// 3.1.
+// let data = "";
+// for (let i = 1; i <= 5; i++) {
+//     for (let j = 1; j <= i; j++) {
+//         data += "*"
+//     }
+//     data += "<br>"
 // }
-
-let line = 1
-let word = "*"
-for (let x = 5; line <= 5; line++) {
-    document.write(((word += "*") * x) + "<br>")
-    x--
-}
-
+// document.write(data)
+// 3.2.
+// let data = "";
+// for (let i = 1; i <= 5; i++) {
+//     for (let j = 5; j > i; j--) {
+//         data += "*"
+//     }
+//     data += "<br>"
+// }
+// document.write(data)
+// 3.3.
+// let data = "";
+// for (let i = 1; i <= 5; i++) {
+//     for (let j = 5; j > i; j--) {
+//         data += "&ensp;"
+//     }
+//     for (let k = 1; k <= i; k++) {
+//         data += "*"
+//     }
+//     data += "<br>"
+// }
+// document.write(data)
+// 3.4.
+// let data = "";
+// for (let i = 1; i <= 5; i++) {
+//     for (let j = 1; j < i; j++) {
+//         data += "&ensp;"
+//     }
+//     for (let k = 5; k > i; k--) {
+//         data += "*"
+//     }
+//     data += "<br>"
+// }
+// document.write(data)
 // Bài 4:
 // for (let line = 0; line <5; line++) {
 //     for (let width = 0; width < 10; width++) {
