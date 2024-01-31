@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd6e12ee-9855-4370-8257-1d19c0fbf2fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/exercise13/practice2/practice2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise13/practice2/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise13/exercise13_1/exercise13_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise13/exercise13_1/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,21 +60,16 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Studies\CodeGym\Module 1\exercisem1\exercise13\practice1" />
-      <recent name="F:\Studies\CodeGym\Module 1\exercisem1\exercise11\multitable" />
-      <recent name="F:\Studies\CodeGym\Module 1\exercisem1\exercise12\foundmax" />
-      <recent name="F:\Studies\CodeGym\Module 1\exercisem1\minitest1" />
       <recent name="F:\Studies\CodeGym\Module 1\exercisem1\exercise11\prime" />
+      <recent name="F:\Studies\CodeGym\Module 1\exercisem1\exercise11" />
+      <recent name="F:\Studies\CodeGym\Module 1\exercisem1\exercise9" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.script.js">
+  <component name="RunManager" selected="JavaScript Debug.prime.html">
     <configuration name="prime.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" engineId="37cae5b9-e8b2-4949-9172-aafa37fbc09c" uri="http://localhost:63342/exercisem1/exercise11/prime/prime.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="script.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/exercise11/prime">
-      <EXTENSION ID="com.jetbrains.nodejs.run.NodeStartBrowserRunConfigurationExtension">
-        <browser name="37cae5b9-e8b2-4949-9172-aafa37fbc09c" />
-      </EXTENSION>
       <method v="2" />
     </configuration>
     <list>
@@ -102,10 +97,10 @@
       <workItem from="1706576560767" duration="21735000" />
       <workItem from="1706615651570" duration="3630000" />
       <workItem from="1706619313729" duration="1293000" />
-      <workItem from="1706663057564" duration="106000" />
-      <workItem from="1706663174819" duration="9718000" />
-      <workItem from="1706675421920" duration="1136000" />
-      <workItem from="1706676577873" duration="9875000" />
+      <workItem from="1706716722544" duration="37000" />
+      <workItem from="1706716767461" duration="485000" />
+      <workItem from="1706717330678" duration="91000" />
+      <workItem from="1706717429591" duration="1293000" />
     </task>
     <servers />
   </component>
