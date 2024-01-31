@@ -27,12 +27,12 @@
 //     word += "*"
 // }
 
-// let line = 1
-// let word = "*****"
-// for (line; line <= 5; line++) {
-//     document.write(word + "<br>")
-//     word -= "*"
-// }
+let line = 1
+let word = "*"
+for (let x = 5; line <= 5; line++) {
+    document.write(((word += "*") * x) + "<br>")
+    x--
+}
 
 // Bài 4:
 // for (let line = 0; line <5; line++) {
@@ -60,13 +60,13 @@
 // }
 
 // Bài 6:
-let word = "*"
-for (let line = 0; line < 10; line++) {
-    if (line === 1) {
-        for (let width = 10; width < 10; width++) {
-            if (3 <= word <= 4 || 6 <= word <= 7) {
-                document.write(word += "*")
-            }
-        }
-    }
-}
+// let word = "*"
+// for (let line = 0; line < 10; line++) {
+//     if (line === 1) {
+//         for (let width = 10; width < 10; width++) {
+//             if (3 <= word <= 4 || 6 <= word <= 7) {
+//                 document.write(word += "*")
+//             }
+//         }
+//     }
+// }
