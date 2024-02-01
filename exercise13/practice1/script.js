@@ -1,10 +1,10 @@
 // Bài 1:
-// let array = [3,4,6,10,11,34,77,1,8,9];
-// for (let i = 0; i < array.length; i++) {
-//     if (array[i] > 10) {
-//         console.log(array[i]);
-//     }
-// }
+let array = [3,4,6,10,11,34,77,1,8,9];
+for (let i = 0; i < array.length; i++) {
+    if (array[i] > 10) {
+        console.log(array[i]);
+    }
+}
 
 // Bài 2:
 // let array = [3, 4, 6, 10, 11, 34, 77, 1, 8, 9];

@@ -15,6 +15,14 @@
 // }
 // console.log(result.join(""))
 
+let arr = [0, 2, 5, 4, 6, 8];
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 === 0 && (arr[i + 1] % 2 === 0)) {
+        arr.splice(i+1, 0, "-");
+    }
+}
+console.log(arr.join(''))
+
 // Bài 3:
 // let string = 'The Quick Brown Fox';
 // let UPPER = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';

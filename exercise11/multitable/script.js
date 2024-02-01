@@ -1,15 +1,15 @@
-let sout = "<table border='1' width='300' cellspacing='0' cellpadding='3'>";
-let i = 2;
-let j = 1;
-while (j <= 10) {
-    sout = sout + "<tr>";
-    while (i <= 10) {
-        sout = sout + "<td>" + i + "x" + j + "=" + i * j + "</td>";
-        i++;
-    }
-    sout = sout + "</tr>";
-    i = 2;
-    j++
-}
 sout = sout + "</table>";
 document.write(sout);
+
+let data = "<table>"
+for (let i = 1; i < 10; i++) {
+    data += "<tr>"
+    for (let j = 2; j < 10; j++) {
+        data += "<td>"
+        data += `${j}x ${i} = ${i * j}`
+        data += "</td>"
+    }
+    data += "</tr>"
+}
+data += "</table>"
+document.write(data)

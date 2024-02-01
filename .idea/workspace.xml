@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd6e12ee-9855-4370-8257-1d19c0fbf2fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/exercise13/dictionary/dictionary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise13/dictionary/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise13/tictactoe/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise13/tictactoe/tictactoe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise11/multitable/multitable.html" beforeDir="false" afterPath="$PROJECT_DIR$/exercise11/multitable/multitable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise11/multitable/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercise11/multitable/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise12/carosimple/carosimple.html" beforeDir="false" afterPath="$PROJECT_DIR$/exercise12/carosimple/carosimple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise13/exercise13_1/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercise13/exercise13_1/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise13/practice1/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercise13/practice1/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +53,9 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;js.last.introduce.type&quot;: &quot;LET&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Studies/CodeGym/Module 1/exercisem1&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -101,6 +108,8 @@
       <workItem from="1706716767461" duration="485000" />
       <workItem from="1706717330678" duration="91000" />
       <workItem from="1706717429591" duration="2928000" />
+      <workItem from="1706721127900" duration="25000" />
+      <workItem from="1706747525058" duration="12015000" />
     </task>
     <servers />
   </component>
