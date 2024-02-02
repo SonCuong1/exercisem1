@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd6e12ee-9855-4370-8257-1d19c0fbf2fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/exercise15/prime.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise15/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise15/feetmeter/feetmeter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise15/feetmeter/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise15/prime.html" beforeDir="false" afterPath="$PROJECT_DIR$/exercise15/prime/prime.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise15/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercise15/prime/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +64,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Studies\CodeGym\Module 1\exercisem1\exercise15\prime" />
       <recent name="F:\Studies\CodeGym\Module 1\exercisem1\exercise11\prime" />
       <recent name="F:\Studies\CodeGym\Module 1\exercisem1\exercise11" />
       <recent name="F:\Studies\CodeGym\Module 1\exercisem1\exercise9" />
@@ -105,7 +108,7 @@
       <workItem from="1706717429591" duration="2928000" />
       <workItem from="1706721127900" duration="25000" />
       <workItem from="1706747525058" duration="12247000" />
-      <workItem from="1706835695200" duration="5550000" />
+      <workItem from="1706835695200" duration="6673000" />
     </task>
     <servers />
   </component>
