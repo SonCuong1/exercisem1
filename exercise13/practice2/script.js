@@ -25,7 +25,7 @@
 
 // Bài 5:
 // let arrayA = ["This is a string"];
-// let arrayB = ["This is another string"];git 
+// let arrayB = ["This is another string"];git
 // if (arrayA === arrayB) {
 //     console.log("Both is the same");
 // } else {
