@@ -8,8 +8,8 @@ function processConfirm(answer) {
     return result;
 }
 
-let confirmAnser = confirm("Shall we play?");
-let theAnswer = processConfirm(confirmAnser);
+let confirmAnswer = confirm("Shall we play?");
+let theAnswer = processConfirm(confirmAnswer);
 alert(theAnswer);
 
 // function processConfirm(answer) {
