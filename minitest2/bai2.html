@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    function count(array) {
+        array = ["f", "a", "b", "a", "f", "e", "g", "a"];
+        let count = 0;
+        let word = prompt("Nhập 1 từ:");
+        for (let i = 0; i < array.length; i++) {
+            if (array[i] === word) {
+                count++
+            }
+        }
+        console.log(count)
+        return array;
+    }
+
+    count()
+</script>
+</html>

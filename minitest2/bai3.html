@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    function prime(array) {
+        let sum = 0;
+        array = [];
+        let amount = parseInt(prompt("Nhập số phần từ:"))
+        for (let i = 0; i < amount; i++) {
+            let num = +prompt("Nhập số cho phần tử " + i);
+            array.push(num)
+        }
+        for (let i = 0; i < array.length; i++) {
+            let prime = true;
+            for (let j = 2; j < array[i]; j++) {
+                if (array[i] % j === 0) {
+                    prime = false;
+                    break;
+                }
+            }
+            if (prime) {
+                sum = sum + array[i];
+            }
+        }
+        console.log(sum)
+        return array;
+    }
+
+    prime()
+</script>
+</html>

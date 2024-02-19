@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let sum = 0;
+    for (let num = 2; num < 500; num++) {
+        let prime = true;
+        for (let i = 2; i < num; i++) {
+            if (num % i === 0) {
+                prime = false;
+                break;
+            }
+        }
+        if (prime) {
+            sum = sum + num;
+        }
+    }
+    console.log(sum)
+</script>
+</html>

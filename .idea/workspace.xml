@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd6e12ee-9855-4370-8257-1d19c0fbf2fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/exercise15/management/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise15/management/managemant.html" beforeDir="false" afterPath="$PROJECT_DIR$/exercise15/management/managemant.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minitest2/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minitest2/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minitest2/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minitest2/bai4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -43,6 +46,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.bai3.html.executor": "Debug",
     "JavaScript Debug.prime.html.executor": "Debug",
     "Node.js.script.js.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -50,7 +54,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "js.last.introduce.type": "LET",
-    "last_opened_file_path": "D:/Studies/CodeGym/Module 1/exercisem1",
+    "last_opened_file_path": "D:/Studies/CodeGym/Module 1/exercisem1/minitest2/bai3.html",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -69,20 +73,20 @@
       <recent name="F:\Studies\CodeGym\Module 1\exercisem1\exercise9" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.prime.html">
-    <configuration name="prime.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/exercisem1/exercise11/prime/prime.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.bai3.html">
+    <configuration name="bai3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/exercisem1/minitest2/bai3.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="script.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/exercise11/prime">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.prime.html" />
+      <item itemvalue="JavaScript Debug.bai3.html" />
       <item itemvalue="Node.js.script.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.prime.html" />
+        <item itemvalue="JavaScript Debug.bai3.html" />
       </list>
     </recent_temporary>
   </component>
@@ -111,6 +115,7 @@
       <workItem from="1706892231327" duration="696000" />
       <workItem from="1707143933081" duration="1240000" />
       <workItem from="1708257895894" duration="305000" />
+      <workItem from="1708305725781" duration="5168000" />
     </task>
     <servers />
   </component>
